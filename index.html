@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>MLL App</title>
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/@supabase/supabase-js@2"></script>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    
+    <style>
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <div id="root"></div>
+
+    <script type="text/babel" src="src/supabaseClient.js"></script>
+    <script type="text/babel" src="src/components/AuthPage.jsx"></script>
+    <script type="text/babel" src="src/components/Home.jsx"></script>
+    <script type="text/babel" src="src/components/Passaggi.jsx"></script>
+    <script type="text/babel" src="src/components/Gare.jsx"></script>
+    <script type="text/babel" src="src/components/Profilo.jsx"></script>
+    <script type="text/babel" src="src/components/Admin.jsx"></script>
+    
+    <script type="text/babel" src="src/App.jsx"></script>
+</body>
+</html>
